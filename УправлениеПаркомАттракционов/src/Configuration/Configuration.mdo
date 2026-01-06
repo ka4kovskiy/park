@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Управление парком аттракционов</value>
   </synonym>
-  <comment>1</comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d3513a0e-7877-442f-8b11-0f0fd6d81c29"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9fedea9c-c330-4fe6-8dfa-a3b7cae00bce"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5f9d83df-ea0b-4565-840d-baad8cac089c"/>
