@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="452dc2c7-cf08-45cb-8cb1-0b22234f518a">
+  <producedTypes>
+    <selectionType typeId="b74c6050-f293-4151-8530-816bbe3f1e92" valueTypeId="2766aa09-5b9b-47d5-ab9b-59990e41166b"/>
+    <listType typeId="e60467fa-467c-48e1-8498-65389bdcbbae" valueTypeId="811c8827-fdae-4fcf-ad67-680e5d2c4b8d"/>
+    <managerType typeId="8988956b-1d2c-4c2b-891d-2d185f6a2c07" valueTypeId="aff3f658-05c1-447a-8219-574104d1ce9f"/>
+    <recordSetType typeId="f3042379-49d6-4cdb-b472-3480723d31b3" valueTypeId="3426dd36-09d8-4dd3-93d6-53659836e0ef"/>
+    <recordKeyType typeId="47463a90-e62a-485d-a659-38866ded1590" valueTypeId="354e8c49-0911-4bc9-901e-483e6ee4d77f"/>
+    <recordType typeId="6135feb2-e1d7-4b11-9759-22b3ef5e35f9" valueTypeId="1d752b36-6a53-414c-a49b-dc28af126fc3"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e7222b2d-33fb-4d28-8b88-e8aaab508bb8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e186b9b2-e3d7-4319-91d1-6525364aaa7b">
+    <name>Аттракцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттракцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аттракционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
