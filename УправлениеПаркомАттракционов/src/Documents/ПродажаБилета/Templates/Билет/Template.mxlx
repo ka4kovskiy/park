@@ -106,7 +106,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттракцион:</v8:content>
+							<v8:content>Тип билета:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -114,7 +114,7 @@
 			<c>
 				<c>
 					<f>10</f>
-					<parameter>Аттракцион</parameter>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 		</row>
@@ -130,7 +130,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма билета:</v8:content>
+							<v8:content>Кол-во посещений:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -138,14 +138,38 @@
 			<c>
 				<c>
 					<f>12</f>
+					<parameter>КоличествоПосещений</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<columnsID>54c07ec4-2a49-4779-acbd-7cb909d7522c</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>13</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма билета:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>14</f>
 					<parameter>СуммаБилета</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>6</height>
-	<vgRows>6</vgRows>
+	<height>7</height>
+	<vgRows>7</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -166,7 +190,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>5</endRow>
+			<endRow>6</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -215,22 +239,31 @@
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
+		<width>180</width>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
-		<horizontalAlignment>Right</horizontalAlignment>
+		<width>144</width>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Block</textPlacement>
 		<fillType>Parameter</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>#</v8:lang>
-				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
-			</v8:item>
-		</format>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
 		<autoIndent>0</autoIndent>
 	</format>
 </document>
